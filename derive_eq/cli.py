@@ -1,5 +1,5 @@
 import argparse
-from .functions import process_equation  # Import your backend function
+from . import derive_equation  # Import your backend function
 
 def main():
     parser = argparse.ArgumentParser(
