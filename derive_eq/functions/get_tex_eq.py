@@ -75,5 +75,5 @@ def get_tex_eq(file_path, equation_number, sure=True):
 
         
 
-print(get_tex_eq('lagrangian.tex',8))    
+# print(get_tex_eq('lagrangian.tex',8))    
 

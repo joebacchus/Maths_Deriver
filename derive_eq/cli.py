@@ -1,5 +1,5 @@
 import argparse
-from . import derive_equation  # Import your backend function
+from derive_eq.derive_equation import * # Import your backend function
 
 def main():
     parser = argparse.ArgumentParser(
@@ -13,7 +13,7 @@ def main():
         "arg2",
         help="Second argument for equation derivation"
     )
-    
+
     args = parser.parse_args()
     
     # Call your backend function with the arguments
@@ -21,4 +21,4 @@ def main():
     print(result)
 
 if __name__ == "__main__":
-    main()
+    main() 
